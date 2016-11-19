@@ -87,3 +87,8 @@ footer .connect{
     background-color:#fefefe;
     color:#000;
 }
+
+#acontent{
+    border:1px solid black;
+    font-family:'Shrikhand', cursive;
+}
