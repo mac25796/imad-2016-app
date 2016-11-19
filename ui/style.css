@@ -111,12 +111,13 @@ footer .connect{
     color: #fefefe;
     padding:10px;
     font-size:15px;
-    border: 1px solid #347ab7;
+    border: 2px solid #347ab7;
+    text-decoration:none;
 }
 
 .rdbtn:hover{
     background-color: #fefefe;
     color: #347ab7;
     border: 1px solid #347ab7;
-
+    text-decoration:none;
 }
