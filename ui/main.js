@@ -127,10 +127,13 @@ function loadArticles () {
                 var articleData = JSON.parse(this.responseText);
                 for (var i=0; i< articleData.length; i++) {
                     content += `<li class="art">
-                    ${articleData[i].heading}<a class="rdbtn" href="/articles/${articleData[i].title}">Read</a>
-                    <br/>
+                    ${articleData[i].heading}<br/>
                     <span style="font-size:15px;font-style:italic">written on 
-                    (${articleData[i].date.split('T')[0]})</span></li>`;
+                    (${articleData[i].date.split('T')[0]})</span>
+                    <br/>
+                    <a class="rdbtn" href="/articles/${articleData[i].title}">Read Article</a>
+                    <br/>
+                    </li>`;
                 }
                 content += "</ul>"
                 articles.innerHTML = content;
