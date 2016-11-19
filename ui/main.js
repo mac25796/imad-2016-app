@@ -4,10 +4,10 @@ function loadLoginForm () {
         <center>
         <h3>Login/Register to unlock awesome features</h3>
         <br/>
-        <input type="text" id="username" placeholder=" Enter Username" required>
+        <input type="text" id="username" placeholder=" Enter Username">
         <div class="help-block with-errors"></div>
         <br/>
-        <input type="password" id="Password" placeholder=" Enter Password" required>
+        <input type="password" id="Password" placeholder=" Enter Password">
         <div class="help-block with-errors"></div>
         <br/>
         <input type="submit" id="login_btn" value="Login" />
