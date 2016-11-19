@@ -34,6 +34,7 @@ function createTemplate (data) {
          <title>
               ${title}
           </title>
+        <link rel="icon" type="image/png" href="/ui/m-300.png" />
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
         <link href="/ui/style.css" rel="stylesheet" />
@@ -176,6 +177,10 @@ app.get('/portfolio', function (req, res) {
 
 app.get('/ui/profilepic.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'profilepic.jpg'));
+});
+
+app.get('/ui/m-300.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'm-300.png'));
 });
 
 
