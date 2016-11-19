@@ -65,19 +65,22 @@ function createTemplate (data) {
              
               <br/>
               <center>
-              <h3>
+              <h3 style="font-family:'Shrikhand', cursive;">
+              <span><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span>
                   ${heading}
               </h3>
               <div>
+              <span><i class="fa fa-calendar" aria-hidden="true"></i></span>
                   ${date.toDateString()}
               </div>
+              <br/>
               </center>
               <div>
                 ${content}
               </div>
               <br/>
               <hr/>
-              <h4 class="bold">Comments</h4>
+              <h4 class="bold"><i class="fa fa-comment" aria-hidden="true"></i> Comments</h4>
               <div id="comment_form">
               </div>
               <div id="comments">
