@@ -64,3 +64,8 @@ body {
   100% { transform: rotate(360deg); }
 }
 
+.navbar{
+    border-radius:0px;
+}
+}
+
