@@ -64,7 +64,7 @@ body {
   100% { transform: rotate(360deg); }
 }
 
-.navbar{
+.navbar-inverse{
     border-radius:0px;
 }
 }
