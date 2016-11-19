@@ -123,7 +123,7 @@ function loadArticles () {
         if (request.readyState === XMLHttpRequest.DONE) {
             var articles = document.getElementById('articles');
             if (request.status === 200) {
-                var content = '<ul>';
+                var content = '<ul style="list-style: none;">';
                 var articleData = JSON.parse(this.responseText);
                 for (var i=0; i< articleData.length; i++) {
                     content += `<li class="art">
