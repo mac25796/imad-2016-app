@@ -41,7 +41,7 @@ function createTemplate (data) {
         <meta name="theme-color" content="#000000" />
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Shrikhand" rel="stylesheet">
     </head>
-        <nav class="navbar navbar-inverse">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
