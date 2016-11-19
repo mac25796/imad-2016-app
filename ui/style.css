@@ -121,3 +121,16 @@ footer .connect{
     border: 1px solid #347ab7;
     text-decoration:none;
 }
+
+h4,h5{
+    font-style:none;
+    font-weight:bold;
+}
+
+#details{
+    font-style:italic;
+}
+
+.box{
+    border:2px solid #000;
+}
