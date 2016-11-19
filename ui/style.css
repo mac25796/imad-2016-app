@@ -78,3 +78,12 @@ footer p.connect{
     font-family: 'Shrikhand', cursive;
 }
 
+#login_btn,#register_btn{
+    background-color:#000;
+    color:#fefefe;
+}
+
+#login_btn:hover,#register_btn:hover{
+    background-color:#fefefe;
+    color:#000;
+}
