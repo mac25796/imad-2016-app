@@ -61,9 +61,10 @@ function createTemplate (data) {
   </div>
 </nav>
       <body>
-          <div class="container" id="acontent">
-             
+          <div class="container" >
+             <div class="row" >
               <br/>
+              <div class="col-xs-offset-1 col-xs-10" id="acontent">
               <center>
               <h3 style="font-family:'Shrikhand', cursive;">
               <span><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span>
@@ -85,6 +86,8 @@ function createTemplate (data) {
               </div>
               <div id="comments">
                 <center>Loading comments...</center>
+              </div>
+              </div>
               </div>
           </div>
           <br/>
