@@ -70,7 +70,7 @@ body {
 
 
 .navbar-brand{
-    color:#fff;
+    color:#fff!important;
     
 }
 
@@ -90,5 +90,4 @@ footer .connect{
 
 #acontent{
     border:1px solid black;
-    font-family:'Shrikhand', cursive;
 }
