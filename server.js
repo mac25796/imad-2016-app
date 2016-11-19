@@ -129,6 +129,14 @@ function createTemplate (data) {
                                 </span>
                             </a>
                         </li>
+                        <li>
+                            <a href="mailto:muthuct2@gmail.com">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
                     </ul>
                     <center>
                     <p class="connect">Connect with me!
