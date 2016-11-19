@@ -91,7 +91,7 @@ function loadLoggedInUser (username) {
     var loginArea = document.getElementById('login_area');
     loginArea.innerHTML = `
         <center>
-        <h3><i class="fa fa-user-circle" aria-hidden="true"></i>  Hi <i>${username}</i>! Welcome back!</h3>
+        <h3><i class="fa fa-user-circle" aria-hidden="true"></i>  Hi <i>${username}</i> ! Welcome back!</h3>
         <p>You can browse through the following articles and comment on them!</p>
         <p>To logout press here <a href="/logout"><i class="fa fa-power-off" aria-hidden="true"></i></a></p>
         <br/>
