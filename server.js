@@ -71,6 +71,11 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
+app.get('/aboutme', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+});
+
+
 app.get('/blog', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'blog.html'));
 });
