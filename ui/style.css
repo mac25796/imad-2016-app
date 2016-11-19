@@ -1,5 +1,5 @@
 body {
-    font-family: 'Montserrat',sans-serif !important;
+    font-family: 'Montserrat',sans-serif ;
     margin-top: 60px;
 }
 
@@ -65,16 +65,16 @@ body {
 }
 
 .navbar-inverse{
-    border-radius:0px!important;
+    border-radius:0px;
 }
 
 
 .navbar-brand{
-    color:#fff!important;
+    color:#fff;
     
 }
 
-footer p.connect{
+footer .connect{
     font-family: 'Shrikhand', cursive;
 }
 
