@@ -2,7 +2,7 @@
 function loadLoginForm () {
     var loginHtml = `
         <center>
-        <h3>Login/Register to unlock awesome features</h3>
+        <h3>Login/Register to unlock awesome features!</h3>
         <br/>
         <i class="fa fa-user" aria-hidden="true"></i> <input type="text" id="username" placeholder=" Enter Username" required>
         <div class="help-block with-errors"></div>
@@ -90,8 +90,11 @@ function loadLoginForm () {
 function loadLoggedInUser (username) {
     var loginArea = document.getElementById('login_area');
     loginArea.innerHTML = `
-        <h3> Hi <i>${username}</i></h3>
-        <a href="/logout">Logout</a>
+        <center>
+        <h3><i class="fa fa-user-circle" aria-hidden="true"></i>  Hi <i>${username}</i>! Welcome back!</h3>
+        <p>You can browse through the following articles and comment on them!</p>
+        <p>To logout press here <a href="/logout"><i class="fa fa-power-off" aria-hidden="true"></i></a></p>
+        <br/>
     `;
 }
 
