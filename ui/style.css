@@ -98,11 +98,12 @@ footer .connect{
 }
 
 li{
-    text-decoration:none;
+    text-decoration:none !important;
 }
 
 .art{
-    font-size:80px;
-    padding:30px;
+    font-size:30px;
+    padding:10px;
     border:2px solid black;
+    margin-bottom:15px;
 }
