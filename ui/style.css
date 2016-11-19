@@ -104,3 +104,16 @@ footer .connect{
     border:2px solid black;
     margin-bottom:15px;
 }
+
+.rdbtn{
+    backgound-color:#347ab7;
+    color: #fefefe;
+    padding:10px;
+    font-size:20px;
+}
+
+.rdbtn{
+    backgound-color: #fefefe;
+    color: #347ab7;
+
+}
