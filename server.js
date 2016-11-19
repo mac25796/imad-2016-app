@@ -75,6 +75,9 @@ app.get('/ui/profilepic.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'profilepic.jpg'));
 });
 
+app.get('/ui/IMG_7747.JPG', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'IMG_7747.JPG'));
+});
 
 function hash (input, salt) {
     // How do we create a hash?
