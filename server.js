@@ -29,20 +29,44 @@ function createTemplate (data) {
     var content = data.content;
     
     var htmlTemplate = `
-    <html>
-      <head>
-          <title>
+<!doctype html>
+<html>
+    <head>
+         <title>
               ${title}
           </title>
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link href="/ui/style.css" rel="stylesheet" />
-      </head> 
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="/ui/style.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="theme-color" content="#000000" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Shrikhand" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">MAC</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="/aboutme"><i class="fa fa-user-circle" aria-hidden="true"></i> About Me</a></li>
+        <li><a href="/blog"><i class="fa fa-rss" aria-hidden="true"></i> Blog</a></li>
+        <li><a href="/portfolio"><i class="fa fa-briefcase" aria-hidden="true"></i> Portfolio</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
       <body>
           <div class="container">
-              <div>
-                  <a href="/">Home</a>
-              </div>
-              <hr/>
+             
+              <br/>
+              <center>
               <h3>
                   ${heading}
               </h3>
@@ -52,6 +76,7 @@ function createTemplate (data) {
               <div>
                 ${content}
               </div>
+              </center>
               <hr/>
               <h4>Comments</h4>
               <div id="comment_form">
@@ -60,6 +85,65 @@ function createTemplate (data) {
                 <center>Loading comments...</center>
               </div>
           </div>
+          <br/>
+            <br/>
+            <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="https://in.linkedin.com/in/muthuannamalaichidambaram" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/mac25796" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/muthuannamalai.chidambaram" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/muthu_ct2" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <center>
+                    <p class="connect">Connect with me!
+                    </p>
+                    </center>
+                    <br/>
+                    <hr/>
+                    <center>
+                    <p class="copyright text-muted">Copyright &copy; Muthu Annamalai Chidambaram 2016</p>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </footer>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+        </script>
+        <script type="text/javascript" src="/ui/main.js">
+        </script>
           <script type="text/javascript" src="/ui/article.js"></script>
       </body>
     </html>
