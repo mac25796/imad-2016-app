@@ -42,7 +42,6 @@ function createTemplate (data) {
         <meta name="theme-color" content="#000000" />
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Shrikhand" rel="stylesheet">
     </head>
-    <body>
         <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
