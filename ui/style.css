@@ -96,3 +96,13 @@ footer .connect{
 #madi,.abt {
     border-radius:20px;
 }
+
+li{
+    text-decoration:none;
+}
+
+.art{
+    font-size:80px;
+    padding:30px;
+    border:2px solid black;
+}
