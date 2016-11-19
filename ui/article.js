@@ -79,6 +79,7 @@ function loadComments () {
                     content += `<div class="comment">
                         <p>${escapeHTML(commentsData[i].comment)}</p>
                         <div class="commenter">
+                        <span><i class="fa fa-user-circle" aria-hidden="true"></i></span>
                             ${commentsData[i].username} - ${time.toLocaleTimeString()} on ${time.toLocaleDateString()} 
                         </div>
                     </div>`;
