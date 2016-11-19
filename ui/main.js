@@ -7,7 +7,7 @@ function loadLoginForm () {
         <input type="text" id="username" placeholder=" Enter Username">
         <div class="help-block with-errors"></div>
         <br/>
-        <input type="password" id="Password" placeholder=" Enter Password">
+        <input type="password" id="password" placeholder=" Enter Password">
         <div class="help-block with-errors"></div>
         <br/>
         <input type="submit" id="login_btn" value="Login" />
