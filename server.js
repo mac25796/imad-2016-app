@@ -71,6 +71,15 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
+app.get('/blog', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'blog.html'));
+});
+
+app.get('/portfolio', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'portfolio.html'));
+});
+
+
 app.get('/ui/profilepic.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'profilepic.jpg'));
 });
