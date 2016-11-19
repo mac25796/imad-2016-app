@@ -106,7 +106,7 @@ footer .connect{
     margin-top:20px;
 }
 
-.rdbtn{
+.rdbtn , .vbtn{
     background-color:#347ab7;
     color: #fefefe;
     padding:10px;
@@ -115,7 +115,7 @@ footer .connect{
     text-decoration:none;
 }
 
-.rdbtn:hover{
+.rdbtn:hover , .vbtn:hover{
     background-color: #fefefe;
     color: #347ab7;
     border: 1px solid #347ab7;
