@@ -95,6 +95,7 @@ function loadLoggedInUser (username) {
         <p>You can browse through the following articles and comment on them!</p>
         <p>To logout press here <a href="/logout"><i class="fa fa-power-off" aria-hidden="true"></i></a></p>
         <br/>
+        </center>
     `;
 }
 
